@@ -194,7 +194,7 @@ extension UIViewController {
             loadingView.tag = 1
             
             let indicator = UIActivityIndicatorView()
-            indicator.style = UIActivityIndicatorView.Style.large //.whiteLarge (Deprecated ios 13)
+            indicator.style = .whiteLarge//UIActivityIndicatorView.Style.large //.whiteLarge (Deprecated ios 13)
             indicator.center = view.center
             
             let label = UILabel()
